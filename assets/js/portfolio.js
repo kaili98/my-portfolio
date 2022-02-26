@@ -13,6 +13,42 @@ $(document).ready(function () {
     } else {
       $(".scroll-up-btn").removeClass("show");
     }
+        // //home
+        // var homeElem = document.querySelector('#home');
+        // var homePos = homeElem.getBoundingClientRect();
+        // if(homePos.top < window.innerHeight && homePos.bottom >= 0) {
+        //   history.pushState(null, '', '#home');   
+        // }
+        // //about
+        // var aboutElem = document.querySelector('#about');
+        // var aboutPos = aboutElem.getBoundingClientRect();
+        // if(aboutPos.top < window.innerHeight && aboutPos.bottom >= 0) {
+        //   history.pushState(null, '', '#about');   
+        // }
+        // //service
+        // var serviceElem = document.querySelector('#services');
+        // var servicePos = serviceElem.getBoundingClientRect();
+        // if(servicePos.top < window.innerHeight && servicePos.bottom >= 0) {
+        //   history.pushState(null, '', '#services');   
+        // }
+        // //skills
+        // var skillsElem = document.querySelector('#skills');
+        // var skillsPos = skillsElem.getBoundingClientRect();
+        // if(skillsPos.top < window.innerHeight && skillsPos.bottom >= 0) {
+        //   history.pushState(null, '', '#skills');   
+        // }
+        // //feedbacks
+        // var feedbacksElem = document.querySelector('#feedbacks');
+        // var feedbacksPos = feedbacksElem.getBoundingClientRect();
+        // if(feedbacksPos.top < window.innerHeight && feedbacksPos.bottom >= 0) {
+        //   history.pushState(null, '', '#feedbacks');   
+        // }
+        // //contact
+        // var contactElem = document.querySelector('#contact');
+        // var contactPos = contactElem.getBoundingClientRect();
+        // if(contactPos.top < window.innerHeight && contactPos.bottom >= 0) {
+        //   history.pushState(null, '', '#contact');   
+        // }
   });
 
   // slide-up script
